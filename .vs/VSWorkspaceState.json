@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RealEstateApp.Core.Application",
+    "\\RealEstateApp.Core.Application\\Helper",
+    "\\RealEstateApp.Core.Application\\Services",
+    "\\RealEstateApp.Core.Application\\Services\\ServicesApp",
+    "\\RealEstateApp.Infrastructure.Identity",
+    "\\RealEstateApp.Infrastructure.Persistence",
+    "\\RealEstateApp.Infrastructure.Persistence\\Repositories",
+    "\\WebApp.RealEstateApp",
+    "\\WebApp.RealEstateApp\\Views",
+    "\\WebApp.RealEstateApp\\Views\\RAgent"
+  ],
+  "SelectedNode": "\\WebApp.RealEstateApp\\Controllers\\RAgentController.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,502 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.bg-home {
+    background-color: #EAE3D2;
+}
+
+.bg-menu {
+    background-color: #607EAA;
+}
+
+
+/* Index TypeSale
+
+---------------------------------------------------------------*/
+
+
+
+
+figure.user-card {
+    background: #ffffff;
+    padding: 20px;
+    border-top: 3px solid #f2f2f2;
+    border: 1px solid #e1e5f1;
+    text-align: center;
+}
+
+    figure.user-card.red {
+        border-top: 3px solid #fc6d4c;
+    }
+
+    figure.user-card.teal {
+        border-top: 3px solid #47BCC7;
+    }
+
+    figure.user-card.fb {
+        border-top: 3px solid #3B5998;
+    }
+
+    figure.user-card.gp {
+        border-top: 3px solid #E02F2F;
+    }
+
+    figure.user-card .profile {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        max-width: 72px;
+        margin-bottom: 20px;
+    }
+
+    figure.user-card h4 {
+        margin: 0 0 5px 0;
+    }
+
+
+    figure.user-card p {
+        margin: 0;
+        padding: 0 0 15px 0;
+        color: #8796af;
+        line-height: 150%;
+        font-size: .99rem;
+    }
+
+    figure.user-card ul.contacts {
+        margin: 0;
+        padding: 0 0 15px 0;
+        line-height: 150%;
+        font-size: .85rem;
+    }
+
+
+/* Botones*/
+
+.btn-labeled {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.btn-label {
+    position: relative;
+    background: transparent;
+    background: rgba(0, 0, 0, .05);
+    display: inline-block;
+    padding: 6px 16px;
+    left: -16px;
+    border-radius: 3px 0 0 3px
+}
+
+
+/* FORMULARIO DE CREAR */
+
+
+.contact-area {
+    background: url(../img/bg/contact-bg.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width:768px) {
+    .contact {
+        margin-bottom: 60px;
+    }
+}
+
+.contact input {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #232434;
+    font-size: 16px;
+    height: 60px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    padding-left: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact textarea {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #232434;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    font-family: 'poppins', sans-serif;
+    padding-left: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.contact input:focus {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #232434;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.contact textarea:focus {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #232434;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 none;
+}
+
+.form-control::placeholder {
+    color: #232434;
+    opacity: 1;
+}
+
+.btn-contact-bg {
+    border-radius: 30px;
+    color: #fff;
+    outline: medium none !important;
+    padding: 15px 27px;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    background: #7564e5;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    width: 100%;
+}
+
+    .btn-contact-bg:hover,
+    .btn-contact-bg:focus {
+        background: #232434;
+        color: #fff;
+    }
+
+/*START ADDRESS*/
+
+.single_address {
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+@media only screen and (max-width:768px) {
+    .single_address {
+        padding-left: 0px;
+    }
+}
+
+.single_address i {
+    background: #f6f6f6;
+    color: #7564e5;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    float: left;
+    margin-right: 14px;
+    font-size: 22px;
+    -webkit-box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single_address:hover i {
+    background: #7564e5;
+    color: #fff;
+}
+
+.single_address h4 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    font-weight: 600;
+}
+
+.single_address p {
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.section-title h1 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    padding: 0 10px;
+    width: 70%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+
+/* TABLA ADMIN
+-------------------------------------------------------------------*/
+
+
+.main-box.no-header {
+    padding-top: 20px;
+}
+
+.main-box {
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -moz-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -o-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    -ms-box-shadow: 1px 1px 2px 0 #CCCCCC;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    margin-bottom: 16px;
+    -webikt-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 10px;
+}
+
+.table a.table-link.danger {
+    color: #e74c3c;
+}
+
+.label {
+    border-radius: 3px;
+    font-size: 0.999em;
+    font-weight: 600;
+
+}
+
+.label-active {
+    background-color: #5cb85c;
+    padding: 6px;
+    color: #fff;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.label-disabled {
+    background-color: #ff0000;
+    padding: 6px;
+    color: #fff;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.user-list tbody td .user-subhead {
+    font-size: 0.875em;
+    font-style: italic;
+}
+
+.user-list tbody td .user-link {
+    display: block;
+    font-size: 1.25em;
+    padding-top: 3px;
+    margin-left: 60px;
+}
+
+a {
+    color: #3498db;
+    outline: none !important;
+}
+
+.user-list tbody td > img {
+    position: relative;
+    max-width: 50px;
+    float: left;
+    margin-right: 15px;
+}
+
+.table thead tr th {
+    text-transform: uppercase;
+    font-size: 1.110em;
+}
+
+.table thead tr th {
+    border-bottom: 4px solid #e7ebee;
+}
+
+.table tbody tr td:first-child {
+    font-size: 1.125em;
+    font-weight: 300;
+}
+
+.table tbody tr td {
+    font-size: 0.875em;
+    vertical-align: middle;
+    border-top: 2px solid #e7ebee;
+    padding: 16px 8px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Dashboard 
+------------------------------------------------------------------*/
+
+
+.panel {
+    box-shadow: 0 2px 0 rgba(0,0,0,0.05);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 24px;
+}
+
+.panel-dark.panel-colorful {
+    background-color: #3b4146;
+    border-color: #3b4146;
+    color: #fff;
+}
+
+.panel-danger.panel-colorful {
+    background-color: #f76c51;
+    border-color: #f76c51;
+    color: #fff;
+}
+
+.panel-primary.panel-colorful {
+    background-color: #5fa2dd;
+    border-color: #5fa2dd;
+    color: #fff;
+}
+
+.panel-purple.panel-colorful {
+    background-color: #8011f9;
+    border-color: #8011f9;
+    color: #fff;
+}
+
+.panel-info.panel-colorful {
+    background-color: #4ebcda;
+    border-color: #4ebcda;
+    color: #fff;
+}
+
+.panel-body {
+    padding: 25px 20px;
+}
+
+.panel hr {
+    border-color: rgba(0,0,0,0.1);
+}
+
+.mar-btm {
+    margin-bottom: 15px;
+}
+
+h2, .h2 {
+    font-size: 28px;
+}
+
+.small, small {
+    font-size: 85%;
+}
+
+.text-sm {
+    font-size: .9em;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+.text-semibold {
+    font-weight: 600;
+}
